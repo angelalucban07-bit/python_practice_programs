@@ -1,8 +1,8 @@
 numbers = []
 while True:
-    user_input = input("Enter a number(or letter to stop): ")
     try:
-        numbers.append(int(user_input))
+        num =int(input("Enter a number (or a letter to stop): "))
+        numbers.append(num)
     except ValueError:
         break
 if numbers:
